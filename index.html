@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+</head>
+
+<body background="assets/images/bg.jpg">
+    <header>Not Skyrim</header>
+    <div class="container">
+        <div class="row">
+            <div id="playerBar" class="col-md-12">
+                Select your class
+            </div>
+        </div>
+        <div class="row">
+            <div id="optSlot1" class="col-md-4">
+                <img id="imgOptSlot1" style="width:100%; height:100%;" src="assets/images/melee.jpg" />
+            </div>
+            <div id="playerSlot" class="col-md-4">
+                <img id="imgPlayerSlot" style="width:100%; height:100%" src="assets/images/ranged.jpg" />
+            </div>
+            <div id="optSlot2" class="col-md-4">
+                <img id="imgOptSlot2" style="width:100%; height:100%" src="assets/images/caster.jpg" />
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div id="classTextWarrior" class="col-md-4" style="text-align:center">
+                Warrior
+            </div>
+            <div id="classTextRanger" class="col-md-4" style="text-align:center">
+                Ranger
+            </div>
+            <div id="classTextSpellCaster" class="col-md-4" style="text-align:center">
+                Spell Caster
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class = col-md-12>
+                <div id="actionBar" class="col-md-12" style="text-align:center">
+                    You are currently choosing your class
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div id="tOptSlot1" class="col-md-4">
+
+            </div>
+            <div id="enemySlot" class="col-md-4">
+
+            </div>
+            <div id="tOptSlot2" class="col-md-4">
+
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col-md-12">
+                <div id="attackBar" class="col-md-12" style="text-align:center">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col-md-12">
+                <div id="enemyStatsBar" class="col-md-12" style="text-align:center">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="logic.js"></script>
+</body>
+
+</html>
